@@ -1,0 +1,40 @@
+1.
+Python script: SVM-p50.py
+Saved best model: SVM-p50_model.sav
+Data: wine_1_50.csv
+kernel="poly"
+Best parameters: {'C': 1, 'coef0': 0, 'degree': 1, 'gamma': 1}
+Number of support vectors:  [ 7 11  5]
+Accuracy: 0.9887640449438202
+Total time:  13.643999338150024  seconds
+
+2.
+Python script: SVM-e50.py
+Saved best model: SVM-e50_model.sav
+Data: wine_1_50.csv
+kernel="rbf"
+Best parameters: {'C': 1, 'gamma': 0.1}
+Number of support vectors:  [14 22 13]
+Accuracy: 0.9887640449438202
+Total time:  0.5670285224914551  seconds
+
+3.
+Python script: SVM-p75.py
+Saved best model: SVM-p75_model.sav
+Data: wine_1_75.csv
+kernel="poly"
+Best parameters: {'C': 100, 'coef0': 1, 'degree': 3, 'gamma': 0.001}
+Number of support vectors:  [ 7 13  8]
+Accuracy: 0.9831460674157303
+Total time:  14.259995698928833  seconds
+
+4.
+Python script: SVM-e75.py
+Saved best model: SVM-e75_model.sav
+Data: wine_1_50.csv
+kernel="rbf"
+Best parameters: {'C': 100, 'gamma': 0.001}
+Number of support vectors:  [ 8 14  9]
+Accuracy: 0.9943820224719101
+Total time:  0.6419920921325684  seconds
+
